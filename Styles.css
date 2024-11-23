@@ -128,9 +128,21 @@ header nav ul li a {
     text-align: center;
 }
 
-.banner-image img {
-    max-width: 100%;
-    border-radius: 10px;
+/* Video responsivo */
+.video-responsive {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    height: 0;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 /* Para pantallas pequeñas */
@@ -138,10 +150,12 @@ header nav ul li a {
     .banner {
         flex-direction: column;
     }
-    .banner-content, .banner-image {
+
+    .banner-content {
         max-width: 100%;
     }
 }
+
 
 /* Sección de Videos */
 #videos {
