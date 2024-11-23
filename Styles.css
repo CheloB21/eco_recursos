@@ -19,6 +19,7 @@ header {
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    max-width: fit-content;
 }
 
 header nav ul {
