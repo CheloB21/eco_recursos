@@ -14,7 +14,6 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#videos">Videos</a></li>
-                <li><a href="#manuales">Manuales</a></li>
                 <li><a href="#noticias">Noticias</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -38,9 +37,16 @@
 
     <!-- Sección de Inicio -->
     <section id="inicio" class="banner">
-        <h1>Responsabilidad Ambiental</h1>
-        <p>Recopilamos recursos para aprender sobre reciclaje y sostenibilidad.</p>
+        <div class="banner-content">
+            <h1>Responsabilidad Ambiental con JERA Educadores</h1>
+            <p>Somos estudiantes de educación ambiental comprometidos con el futuro de nuestro planeta. Este sitio recopila recursos de nuestra autoría para educar y concientizar sobre reciclaje, sostenibilidad y prácticas responsables.</p>
+            <a href="#videos" class="btn">Explorar Recursos</a>
+        </div>
+        <div class="banner-image">
+            <img src="https://via.placeholder.com/600x400" alt="Responsabilidad Ambiental">
+        </div>
     </section>
+    
 
     <!-- Sección de Videos -->
     <section id="videos" class="content-section">
@@ -51,7 +57,7 @@
                 <p>Cómo reciclar en casa</p>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/example2" title="Video 2" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9zzPGacCi_M?si=ivx0xyCAdTYPo2hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p>Ideas para reutilizar plástico</p>
             </div>
         </div>
@@ -75,43 +81,41 @@
     </section>
 
     <!-- Sección de Contacto -->
-    <section id="contacto" class="content-section">
-        <h2>Contacto</h2>
-        <form action="#" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" required>
-            
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
+    <section id="contacto" class="contact-form">
+        <div class="container">
+            <h2>Contáctanos - Reporta incidentes</h2>
+            <form class="form">
+                <input type="text" placeholder="Nombre" class="form-input">
+                <input type="tel" placeholder="Número Celular" class="form-input">
+                <input type="email" placeholder="Correo Electrónico" class="form-input">
+                <textarea placeholder="Mensaje" class="form-textarea"></textarea>
+                <input type="file" placeholder="Sube evidencias" class="form-input">
+                <button type="submit" class="form-button">Enviar</button>
+            </form>
+        </div>
     </section>
-
-    <footer>
-        <p>© 2024 EcoRecursos. Todos los derechos reservados.</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
 <footer>
     <div class="footer-container">
         <div class="footer-about">
-            <h3>🌱 EcoRecursos</h3>
+            <h3>🌱 JERA Educadores</h3>
             <p>Promovemos la educación ambiental con recursos para un futuro más sostenible.</p>
+            <p><a href="#" class="alink">Jossie Perez</a></p>
+            <p><a href="https://linktr.ee/Marcelo_Bonilla" class="alink" target="_blank">Erick Bonilla</a></p>    
+            <p><a href="#" class="alink">Roberto Cerrato</a></p>
+            <p><a href="#" class="alink">Abner Monterrey</a></p>
         </div>
         <div class="footer-links">
-            <h4>Enlaces útiles</h4>
+            <!--<h4>Enlaces útiles</h4>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#videos">Videos</a></li>
                 <li><a href="#manuales">Manuales</a></li>
                 <li><a href="#noticias">Noticias</a></li>
                 <li><a href="#contacto">Contacto</a></li>
-            </ul>
+            </ul>-->
         </div>
         <div class="footer-social">
             <h4>Conéctate con nosotros</h4>
