@@ -157,7 +157,7 @@ header nav ul li a {
 }
 
 
-/* Sección de Videos */
+/* Estilo de la sección de Videos */
 #videos {
     text-align: center;
     padding: 2rem 1rem;
@@ -177,6 +177,7 @@ header nav ul li a {
     gap: 1.5rem;
 }
 
+/* Estilo de las tarjetas de video */
 .video-card {
     background-color: #fff;
     border-radius: 8px;
@@ -220,7 +221,6 @@ header nav ul li a {
     font-weight: 500;
     color: #222;
 }
-
 
 /* Estilo de la sección de noticias */
 #noticias {
